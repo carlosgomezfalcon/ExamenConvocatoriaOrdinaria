@@ -6,7 +6,7 @@ public class Film {
     private final String title;
     private final int year;
     private final String director;
-    private final String cast; //Reparto de actores
+    private final String cast; 
     private final String genre;
     private final double rating;
     private final String duration;

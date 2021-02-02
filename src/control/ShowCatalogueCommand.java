@@ -7,7 +7,7 @@ import view.CatalogueDisplay;
 public class ShowCatalogueCommand implements Command {
 
     private final CatalogueDisplay display;
-    private List<Film> films; 
+    private final List<Film> films; 
     
     public ShowCatalogueCommand (CatalogueDisplay catalogueDisplay, List<Film> films) {
         this.display = catalogueDisplay;

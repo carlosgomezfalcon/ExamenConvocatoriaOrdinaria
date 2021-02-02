@@ -8,7 +8,7 @@ import view.FilmDisplay;
 public class RatingCommand implements Command {
 
     private final FilmDisplay display;
-    private List<Film> films; 
+    private final List<Film> films; 
 
     public RatingCommand(FilmDisplay display, List<Film> films) {
         this.display = display;
