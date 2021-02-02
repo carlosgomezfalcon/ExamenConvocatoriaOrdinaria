@@ -59,6 +59,9 @@ public class Film {
         return title + ": year=" + year + ", director=" + director + ", cast=" + cast + ", genre=" + genre + ", rating=" + rating + ", duration=" + duration;
     }
     
-    
+    public int compareRating(Film f1, Film f2) {
+        if(f1.getRating()>f2.getRating()) return 0;
+        else return 1;
+    }
     
 }
